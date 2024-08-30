@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[900px] h-[500px] text-white text-center overflow-hidden rounded-3xl bg-gray-900 mt-10 p-5">
+  <div class="sm:w-[620px] md:w-[750px] lg:w-[900px] h-[390px] sm:h-[500px] text-white text-center overflow-hidden rounded-3xl bg-gray-900 mt-10 p-5">
     <div>
       <h1 class="text-3xl font-medium mt-12">Погодное приложение</h1>
       <p class="text-2xl font-medium mt-2">Узнать погоду в {{ city == "" ? "вашем городе" : cityName }}</p>
